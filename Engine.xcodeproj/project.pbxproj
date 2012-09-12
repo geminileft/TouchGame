@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3AF67231601447E004AB446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AF67221601447E004AB446 /* Foundation.framework */; };
+		D3AF6769160144A6004AB446 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF672F160144A5004AB446 /* EAGLView.h */; };
+		D3AF676A160144A6004AB446 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6730160144A5004AB446 /* EAGLView.mm */; };
+		D3AF676B160144A6004AB446 /* TEComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6731160144A5004AB446 /* TEComponent.cpp */; };
+		D3AF676C160144A6004AB446 /* TEComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6732160144A5004AB446 /* TEComponent.h */; };
+		D3AF676D160144A6004AB446 /* TEComponentRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6733160144A5004AB446 /* TEComponentRender.cpp */; };
+		D3AF676E160144A6004AB446 /* TEComponentRender.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6734160144A5004AB446 /* TEComponentRender.h */; };
+		D3AF676F160144A6004AB446 /* TEComponentSound.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6735160144A5004AB446 /* TEComponentSound.h */; };
+		D3AF6770160144A6004AB446 /* TEComponentSound.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6736160144A5004AB446 /* TEComponentSound.mm */; };
+		D3AF6771160144A6004AB446 /* TEComponentTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6737160144A5004AB446 /* TEComponentTouch.cpp */; };
+		D3AF6772160144A6004AB446 /* TEComponentTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6738160144A5004AB446 /* TEComponentTouch.h */; };
+		D3AF6773160144A6004AB446 /* TEEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6739160144A5004AB446 /* TEEngine.h */; };
+		D3AF6774160144A6004AB446 /* TEEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF673A160144A5004AB446 /* TEEngine.mm */; };
+		D3AF6775160144A6004AB446 /* TEEventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF673B160144A5004AB446 /* TEEventListener.h */; };
+		D3AF6776160144A6004AB446 /* TEEventListenerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF673C160144A5004AB446 /* TEEventListenerBase.h */; };
+		D3AF6777160144A6004AB446 /* TEGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF673D160144A5004AB446 /* TEGameObject.cpp */; };
+		D3AF6778160144A6004AB446 /* TEGameObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF673E160144A5004AB446 /* TEGameObject.h */; };
+		D3AF6779160144A6004AB446 /* TEInputTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF673F160144A5004AB446 /* TEInputTouch.cpp */; };
+		D3AF677A160144A6004AB446 /* TEInputTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6740160144A5004AB446 /* TEInputTouch.h */; };
+		D3AF677B160144A6004AB446 /* TEManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6741160144A5004AB446 /* TEManager.h */; };
+		D3AF677C160144A6004AB446 /* TEManagerComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6742160144A5004AB446 /* TEManagerComponent.cpp */; };
+		D3AF677D160144A6004AB446 /* TEManagerComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6743160144A5004AB446 /* TEManagerComponent.h */; };
+		D3AF677E160144A6004AB446 /* TEManagerFile.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6744160144A5004AB446 /* TEManagerFile.h */; };
+		D3AF677F160144A6004AB446 /* TEManagerFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6745160144A5004AB446 /* TEManagerFile.mm */; };
+		D3AF6780160144A6004AB446 /* TEManagerInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6746160144A5004AB446 /* TEManagerInput.cpp */; };
+		D3AF6781160144A6004AB446 /* TEManagerInput.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6747160144A5004AB446 /* TEManagerInput.h */; };
+		D3AF6782160144A6004AB446 /* TEManagerProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6748160144A5004AB446 /* TEManagerProfiler.h */; };
+		D3AF6783160144A6004AB446 /* TEManagerProfiler.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6749160144A5004AB446 /* TEManagerProfiler.mm */; };
+		D3AF6784160144A6004AB446 /* TEManagerRender.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF674A160144A5004AB446 /* TEManagerRender.h */; };
+		D3AF6785160144A6004AB446 /* TEManagerRender.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF674B160144A5004AB446 /* TEManagerRender.mm */; };
+		D3AF6786160144A6004AB446 /* TEManagerSound.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF674C160144A5004AB446 /* TEManagerSound.h */; };
+		D3AF6787160144A6004AB446 /* TEManagerSound.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF674D160144A5004AB446 /* TEManagerSound.mm */; };
+		D3AF6788160144A6004AB446 /* TEManagerTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF674E160144A5004AB446 /* TEManagerTexture.h */; };
+		D3AF6789160144A6004AB446 /* TEManagerTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF674F160144A5004AB446 /* TEManagerTexture.mm */; };
+		D3AF678A160144A6004AB446 /* TEManagerTime.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6750160144A5004AB446 /* TEManagerTime.h */; };
+		D3AF678B160144A6004AB446 /* TEManagerTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6751160144A5004AB446 /* TEManagerTime.mm */; };
+		D3AF678C160144A6004AB446 /* TEManagerTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6752160144A5004AB446 /* TEManagerTouch.cpp */; };
+		D3AF678D160144A6004AB446 /* TEManagerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6753160144A5004AB446 /* TEManagerTouch.h */; };
+		D3AF678E160144A6004AB446 /* TEProgramPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6754160144A5004AB446 /* TEProgramPolygon.h */; };
+		D3AF678F160144A6004AB446 /* TEProgramPolygon.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6755160144A5004AB446 /* TEProgramPolygon.mm */; };
+		D3AF6790160144A6004AB446 /* TERenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6756160144A5004AB446 /* TERenderer.h */; };
+		D3AF6791160144A6004AB446 /* TERenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6757160144A5004AB446 /* TERenderer.mm */; };
+		D3AF6792160144A6004AB446 /* TERendererBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6758160144A5004AB446 /* TERendererBasic.h */; };
+		D3AF6793160144A6004AB446 /* TERendererBasic.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6759160144A5004AB446 /* TERendererBasic.mm */; };
+		D3AF6794160144A6004AB446 /* TERendererKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF675A160144A5004AB446 /* TERendererKernel.h */; };
+		D3AF6795160144A6004AB446 /* TERendererKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF675B160144A5004AB446 /* TERendererKernel.mm */; };
+		D3AF6796160144A6004AB446 /* TERendererOGL2.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF675C160144A6004AB446 /* TERendererOGL2.h */; };
+		D3AF6797160144A6004AB446 /* TERendererOGL2.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF675D160144A6004AB446 /* TERendererOGL2.mm */; };
+		D3AF6798160144A6004AB446 /* TERendererProgram.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF675E160144A6004AB446 /* TERendererProgram.h */; };
+		D3AF6799160144A6004AB446 /* TERendererProgram.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF675F160144A6004AB446 /* TERendererProgram.mm */; };
+		D3AF679A160144A6004AB446 /* TERendererTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6760160144A6004AB446 /* TERendererTexture.h */; };
+		D3AF679B160144A6004AB446 /* TERendererTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6761160144A6004AB446 /* TERendererTexture.mm */; };
+		D3AF679C160144A6004AB446 /* TERenderTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6762160144A6004AB446 /* TERenderTarget.h */; };
+		D3AF679D160144A6004AB446 /* TERenderTarget.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6763160144A6004AB446 /* TERenderTarget.mm */; };
+		D3AF679E160144A6004AB446 /* TERunnable.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6764160144A6004AB446 /* TERunnable.h */; };
+		D3AF679F160144A6004AB446 /* TERunnable.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6765160144A6004AB446 /* TERunnable.mm */; };
+		D3AF67A0160144A6004AB446 /* TETypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6766160144A6004AB446 /* TETypes.h */; };
+		D3AF67A1160144A6004AB446 /* TEUtilMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6767160144A6004AB446 /* TEUtilMatrix.cpp */; };
+		D3AF67A2160144A6004AB446 /* TEUtilMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF6768160144A6004AB446 /* TEUtilMatrix.h */; };
+		D3AF67B2160144D4004AB446 /* blur.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A4160144D4004AB446 /* blur.fs */; };
+		D3AF67B3160144D4004AB446 /* colorbox.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A5160144D4004AB446 /* colorbox.fs */; };
+		D3AF67B4160144D4004AB446 /* colorbox.vs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A6160144D4004AB446 /* colorbox.vs */; };
+		D3AF67B5160144D4004AB446 /* grayscale.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A7160144D4004AB446 /* grayscale.fs */; };
+		D3AF67B6160144D4004AB446 /* grow.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A8160144D4004AB446 /* grow.fs */; };
+		D3AF67B7160144D4004AB446 /* negative.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67A9160144D4004AB446 /* negative.fs */; };
+		D3AF67B8160144D4004AB446 /* polygon.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AA160144D4004AB446 /* polygon.fs */; };
+		D3AF67B9160144D4004AB446 /* polygon.vs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AB160144D4004AB446 /* polygon.vs */; };
+		D3AF67BA160144D4004AB446 /* sepia.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AC160144D4004AB446 /* sepia.fs */; };
+		D3AF67BB160144D4004AB446 /* texture.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AD160144D4004AB446 /* texture.fs */; };
+		D3AF67BC160144D4004AB446 /* texture.vs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AE160144D4004AB446 /* texture.vs */; };
+		D3AF67BD160144D4004AB446 /* toon.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AF160144D4004AB446 /* toon.fs */; };
+		D3AF67BE160144D4004AB446 /* transparentcolor.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67B0160144D4004AB446 /* transparentcolor.fs */; };
+		D3AF67BF160144D4004AB446 /* yellow.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67B1160144D4004AB446 /* yellow.fs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D3AF67C016014545004AB446 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = "com.apple.build-tasks.copy-strings-file";
+			filePatterns = "*.fs";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		D3AF67C11601456D004AB446 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = "com.apple.build-tasks.copy-strings-file";
+			filePatterns = "*.vs";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		D3AF671F1601447E004AB446 /* libEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3AF67221601447E004AB446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3AF67261601447E004AB446 /* Engine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Engine-Prefix.pch"; sourceTree = "<group>"; };
+		D3AF672F160144A5004AB446 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		D3AF6730160144A5004AB446 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		D3AF6731160144A5004AB446 /* TEComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEComponent.cpp; sourceTree = "<group>"; };
+		D3AF6732160144A5004AB446 /* TEComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEComponent.h; sourceTree = "<group>"; };
+		D3AF6733160144A5004AB446 /* TEComponentRender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEComponentRender.cpp; sourceTree = "<group>"; };
+		D3AF6734160144A5004AB446 /* TEComponentRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEComponentRender.h; sourceTree = "<group>"; };
+		D3AF6735160144A5004AB446 /* TEComponentSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEComponentSound.h; sourceTree = "<group>"; };
+		D3AF6736160144A5004AB446 /* TEComponentSound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEComponentSound.mm; sourceTree = "<group>"; };
+		D3AF6737160144A5004AB446 /* TEComponentTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEComponentTouch.cpp; sourceTree = "<group>"; };
+		D3AF6738160144A5004AB446 /* TEComponentTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEComponentTouch.h; sourceTree = "<group>"; };
+		D3AF6739160144A5004AB446 /* TEEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEEngine.h; sourceTree = "<group>"; };
+		D3AF673A160144A5004AB446 /* TEEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEEngine.mm; sourceTree = "<group>"; };
+		D3AF673B160144A5004AB446 /* TEEventListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEEventListener.h; sourceTree = "<group>"; };
+		D3AF673C160144A5004AB446 /* TEEventListenerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEEventListenerBase.h; sourceTree = "<group>"; };
+		D3AF673D160144A5004AB446 /* TEGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEGameObject.cpp; sourceTree = "<group>"; };
+		D3AF673E160144A5004AB446 /* TEGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEGameObject.h; sourceTree = "<group>"; };
+		D3AF673F160144A5004AB446 /* TEInputTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEInputTouch.cpp; sourceTree = "<group>"; };
+		D3AF6740160144A5004AB446 /* TEInputTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEInputTouch.h; sourceTree = "<group>"; };
+		D3AF6741160144A5004AB446 /* TEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManager.h; sourceTree = "<group>"; };
+		D3AF6742160144A5004AB446 /* TEManagerComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEManagerComponent.cpp; sourceTree = "<group>"; };
+		D3AF6743160144A5004AB446 /* TEManagerComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerComponent.h; sourceTree = "<group>"; };
+		D3AF6744160144A5004AB446 /* TEManagerFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerFile.h; sourceTree = "<group>"; };
+		D3AF6745160144A5004AB446 /* TEManagerFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerFile.mm; sourceTree = "<group>"; };
+		D3AF6746160144A5004AB446 /* TEManagerInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEManagerInput.cpp; sourceTree = "<group>"; };
+		D3AF6747160144A5004AB446 /* TEManagerInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerInput.h; sourceTree = "<group>"; };
+		D3AF6748160144A5004AB446 /* TEManagerProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerProfiler.h; sourceTree = "<group>"; };
+		D3AF6749160144A5004AB446 /* TEManagerProfiler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerProfiler.mm; sourceTree = "<group>"; };
+		D3AF674A160144A5004AB446 /* TEManagerRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerRender.h; sourceTree = "<group>"; };
+		D3AF674B160144A5004AB446 /* TEManagerRender.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerRender.mm; sourceTree = "<group>"; };
+		D3AF674C160144A5004AB446 /* TEManagerSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerSound.h; sourceTree = "<group>"; };
+		D3AF674D160144A5004AB446 /* TEManagerSound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerSound.mm; sourceTree = "<group>"; };
+		D3AF674E160144A5004AB446 /* TEManagerTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerTexture.h; sourceTree = "<group>"; };
+		D3AF674F160144A5004AB446 /* TEManagerTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerTexture.mm; sourceTree = "<group>"; };
+		D3AF6750160144A5004AB446 /* TEManagerTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerTime.h; sourceTree = "<group>"; };
+		D3AF6751160144A5004AB446 /* TEManagerTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEManagerTime.mm; sourceTree = "<group>"; };
+		D3AF6752160144A5004AB446 /* TEManagerTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEManagerTouch.cpp; sourceTree = "<group>"; };
+		D3AF6753160144A5004AB446 /* TEManagerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEManagerTouch.h; sourceTree = "<group>"; };
+		D3AF6754160144A5004AB446 /* TEProgramPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEProgramPolygon.h; sourceTree = "<group>"; };
+		D3AF6755160144A5004AB446 /* TEProgramPolygon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TEProgramPolygon.mm; sourceTree = "<group>"; };
+		D3AF6756160144A5004AB446 /* TERenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERenderer.h; sourceTree = "<group>"; };
+		D3AF6757160144A5004AB446 /* TERenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERenderer.mm; sourceTree = "<group>"; };
+		D3AF6758160144A5004AB446 /* TERendererBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererBasic.h; sourceTree = "<group>"; };
+		D3AF6759160144A5004AB446 /* TERendererBasic.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererBasic.mm; sourceTree = "<group>"; };
+		D3AF675A160144A5004AB446 /* TERendererKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererKernel.h; sourceTree = "<group>"; };
+		D3AF675B160144A5004AB446 /* TERendererKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererKernel.mm; sourceTree = "<group>"; };
+		D3AF675C160144A6004AB446 /* TERendererOGL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererOGL2.h; sourceTree = "<group>"; };
+		D3AF675D160144A6004AB446 /* TERendererOGL2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererOGL2.mm; sourceTree = "<group>"; };
+		D3AF675E160144A6004AB446 /* TERendererProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererProgram.h; sourceTree = "<group>"; };
+		D3AF675F160144A6004AB446 /* TERendererProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererProgram.mm; sourceTree = "<group>"; };
+		D3AF6760160144A6004AB446 /* TERendererTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererTexture.h; sourceTree = "<group>"; };
+		D3AF6761160144A6004AB446 /* TERendererTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererTexture.mm; sourceTree = "<group>"; };
+		D3AF6762160144A6004AB446 /* TERenderTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERenderTarget.h; sourceTree = "<group>"; };
+		D3AF6763160144A6004AB446 /* TERenderTarget.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERenderTarget.mm; sourceTree = "<group>"; };
+		D3AF6764160144A6004AB446 /* TERunnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERunnable.h; sourceTree = "<group>"; };
+		D3AF6765160144A6004AB446 /* TERunnable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERunnable.mm; sourceTree = "<group>"; };
+		D3AF6766160144A6004AB446 /* TETypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETypes.h; sourceTree = "<group>"; };
+		D3AF6767160144A6004AB446 /* TEUtilMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TEUtilMatrix.cpp; sourceTree = "<group>"; };
+		D3AF6768160144A6004AB446 /* TEUtilMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEUtilMatrix.h; sourceTree = "<group>"; };
+		D3AF67A4160144D4004AB446 /* blur.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = blur.fs; sourceTree = "<group>"; };
+		D3AF67A5160144D4004AB446 /* colorbox.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = colorbox.fs; sourceTree = "<group>"; };
+		D3AF67A6160144D4004AB446 /* colorbox.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = colorbox.vs; sourceTree = "<group>"; };
+		D3AF67A7160144D4004AB446 /* grayscale.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = grayscale.fs; sourceTree = "<group>"; };
+		D3AF67A8160144D4004AB446 /* grow.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = grow.fs; sourceTree = "<group>"; };
+		D3AF67A9160144D4004AB446 /* negative.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = negative.fs; sourceTree = "<group>"; };
+		D3AF67AA160144D4004AB446 /* polygon.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = polygon.fs; sourceTree = "<group>"; };
+		D3AF67AB160144D4004AB446 /* polygon.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = polygon.vs; sourceTree = "<group>"; };
+		D3AF67AC160144D4004AB446 /* sepia.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sepia.fs; sourceTree = "<group>"; };
+		D3AF67AD160144D4004AB446 /* texture.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.fs; sourceTree = "<group>"; };
+		D3AF67AE160144D4004AB446 /* texture.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.vs; sourceTree = "<group>"; };
+		D3AF67AF160144D4004AB446 /* toon.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.fs; sourceTree = "<group>"; };
+		D3AF67B0160144D4004AB446 /* transparentcolor.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = transparentcolor.fs; sourceTree = "<group>"; };
+		D3AF67B1160144D4004AB446 /* yellow.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = yellow.fs; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3AF671C1601447E004AB446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AF67231601447E004AB446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3AF67141601447E004AB446 = {
+			isa = PBXGroup;
+			children = (
+				D3AF67A3160144B0004AB446 /* Shaders */,
+				D3AF67241601447E004AB446 /* Engine */,
+				D3AF67251601447E004AB446 /* Supporting Files */,
+				D3AF67211601447E004AB446 /* Frameworks */,
+				D3AF67201601447E004AB446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3AF67201601447E004AB446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF671F1601447E004AB446 /* libEngine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3AF67211601447E004AB446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF67221601447E004AB446 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3AF67241601447E004AB446 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF672F160144A5004AB446 /* EAGLView.h */,
+				D3AF6730160144A5004AB446 /* EAGLView.mm */,
+				D3AF6731160144A5004AB446 /* TEComponent.cpp */,
+				D3AF6732160144A5004AB446 /* TEComponent.h */,
+				D3AF6733160144A5004AB446 /* TEComponentRender.cpp */,
+				D3AF6734160144A5004AB446 /* TEComponentRender.h */,
+				D3AF6735160144A5004AB446 /* TEComponentSound.h */,
+				D3AF6736160144A5004AB446 /* TEComponentSound.mm */,
+				D3AF6737160144A5004AB446 /* TEComponentTouch.cpp */,
+				D3AF6738160144A5004AB446 /* TEComponentTouch.h */,
+				D3AF6739160144A5004AB446 /* TEEngine.h */,
+				D3AF673A160144A5004AB446 /* TEEngine.mm */,
+				D3AF673B160144A5004AB446 /* TEEventListener.h */,
+				D3AF673C160144A5004AB446 /* TEEventListenerBase.h */,
+				D3AF673D160144A5004AB446 /* TEGameObject.cpp */,
+				D3AF673E160144A5004AB446 /* TEGameObject.h */,
+				D3AF673F160144A5004AB446 /* TEInputTouch.cpp */,
+				D3AF6740160144A5004AB446 /* TEInputTouch.h */,
+				D3AF6741160144A5004AB446 /* TEManager.h */,
+				D3AF6742160144A5004AB446 /* TEManagerComponent.cpp */,
+				D3AF6743160144A5004AB446 /* TEManagerComponent.h */,
+				D3AF6744160144A5004AB446 /* TEManagerFile.h */,
+				D3AF6745160144A5004AB446 /* TEManagerFile.mm */,
+				D3AF6746160144A5004AB446 /* TEManagerInput.cpp */,
+				D3AF6747160144A5004AB446 /* TEManagerInput.h */,
+				D3AF6748160144A5004AB446 /* TEManagerProfiler.h */,
+				D3AF6749160144A5004AB446 /* TEManagerProfiler.mm */,
+				D3AF674A160144A5004AB446 /* TEManagerRender.h */,
+				D3AF674B160144A5004AB446 /* TEManagerRender.mm */,
+				D3AF674C160144A5004AB446 /* TEManagerSound.h */,
+				D3AF674D160144A5004AB446 /* TEManagerSound.mm */,
+				D3AF674E160144A5004AB446 /* TEManagerTexture.h */,
+				D3AF674F160144A5004AB446 /* TEManagerTexture.mm */,
+				D3AF6750160144A5004AB446 /* TEManagerTime.h */,
+				D3AF6751160144A5004AB446 /* TEManagerTime.mm */,
+				D3AF6752160144A5004AB446 /* TEManagerTouch.cpp */,
+				D3AF6753160144A5004AB446 /* TEManagerTouch.h */,
+				D3AF6754160144A5004AB446 /* TEProgramPolygon.h */,
+				D3AF6755160144A5004AB446 /* TEProgramPolygon.mm */,
+				D3AF6756160144A5004AB446 /* TERenderer.h */,
+				D3AF6757160144A5004AB446 /* TERenderer.mm */,
+				D3AF6758160144A5004AB446 /* TERendererBasic.h */,
+				D3AF6759160144A5004AB446 /* TERendererBasic.mm */,
+				D3AF675A160144A5004AB446 /* TERendererKernel.h */,
+				D3AF675B160144A5004AB446 /* TERendererKernel.mm */,
+				D3AF675C160144A6004AB446 /* TERendererOGL2.h */,
+				D3AF675D160144A6004AB446 /* TERendererOGL2.mm */,
+				D3AF675E160144A6004AB446 /* TERendererProgram.h */,
+				D3AF675F160144A6004AB446 /* TERendererProgram.mm */,
+				D3AF6760160144A6004AB446 /* TERendererTexture.h */,
+				D3AF6761160144A6004AB446 /* TERendererTexture.mm */,
+				D3AF6762160144A6004AB446 /* TERenderTarget.h */,
+				D3AF6763160144A6004AB446 /* TERenderTarget.mm */,
+				D3AF6764160144A6004AB446 /* TERunnable.h */,
+				D3AF6765160144A6004AB446 /* TERunnable.mm */,
+				D3AF6766160144A6004AB446 /* TETypes.h */,
+				D3AF6767160144A6004AB446 /* TEUtilMatrix.cpp */,
+				D3AF6768160144A6004AB446 /* TEUtilMatrix.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D3AF67251601447E004AB446 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF67261601447E004AB446 /* Engine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D3AF67A3160144B0004AB446 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF67A4160144D4004AB446 /* blur.fs */,
+				D3AF67A5160144D4004AB446 /* colorbox.fs */,
+				D3AF67A6160144D4004AB446 /* colorbox.vs */,
+				D3AF67A7160144D4004AB446 /* grayscale.fs */,
+				D3AF67A8160144D4004AB446 /* grow.fs */,
+				D3AF67A9160144D4004AB446 /* negative.fs */,
+				D3AF67AA160144D4004AB446 /* polygon.fs */,
+				D3AF67AB160144D4004AB446 /* polygon.vs */,
+				D3AF67AC160144D4004AB446 /* sepia.fs */,
+				D3AF67AD160144D4004AB446 /* texture.fs */,
+				D3AF67AE160144D4004AB446 /* texture.vs */,
+				D3AF67AF160144D4004AB446 /* toon.fs */,
+				D3AF67B0160144D4004AB446 /* transparentcolor.fs */,
+				D3AF67B1160144D4004AB446 /* yellow.fs */,
+			);
+			name = Shaders;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D3AF671D1601447E004AB446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AF6769160144A6004AB446 /* EAGLView.h in Headers */,
+				D3AF676C160144A6004AB446 /* TEComponent.h in Headers */,
+				D3AF676E160144A6004AB446 /* TEComponentRender.h in Headers */,
+				D3AF676F160144A6004AB446 /* TEComponentSound.h in Headers */,
+				D3AF6772160144A6004AB446 /* TEComponentTouch.h in Headers */,
+				D3AF6773160144A6004AB446 /* TEEngine.h in Headers */,
+				D3AF6775160144A6004AB446 /* TEEventListener.h in Headers */,
+				D3AF6776160144A6004AB446 /* TEEventListenerBase.h in Headers */,
+				D3AF6778160144A6004AB446 /* TEGameObject.h in Headers */,
+				D3AF677A160144A6004AB446 /* TEInputTouch.h in Headers */,
+				D3AF677B160144A6004AB446 /* TEManager.h in Headers */,
+				D3AF677D160144A6004AB446 /* TEManagerComponent.h in Headers */,
+				D3AF677E160144A6004AB446 /* TEManagerFile.h in Headers */,
+				D3AF6781160144A6004AB446 /* TEManagerInput.h in Headers */,
+				D3AF6782160144A6004AB446 /* TEManagerProfiler.h in Headers */,
+				D3AF6784160144A6004AB446 /* TEManagerRender.h in Headers */,
+				D3AF6786160144A6004AB446 /* TEManagerSound.h in Headers */,
+				D3AF6788160144A6004AB446 /* TEManagerTexture.h in Headers */,
+				D3AF678A160144A6004AB446 /* TEManagerTime.h in Headers */,
+				D3AF678D160144A6004AB446 /* TEManagerTouch.h in Headers */,
+				D3AF678E160144A6004AB446 /* TEProgramPolygon.h in Headers */,
+				D3AF6790160144A6004AB446 /* TERenderer.h in Headers */,
+				D3AF6792160144A6004AB446 /* TERendererBasic.h in Headers */,
+				D3AF6794160144A6004AB446 /* TERendererKernel.h in Headers */,
+				D3AF6796160144A6004AB446 /* TERendererOGL2.h in Headers */,
+				D3AF6798160144A6004AB446 /* TERendererProgram.h in Headers */,
+				D3AF679A160144A6004AB446 /* TERendererTexture.h in Headers */,
+				D3AF679C160144A6004AB446 /* TERenderTarget.h in Headers */,
+				D3AF679E160144A6004AB446 /* TERunnable.h in Headers */,
+				D3AF67A0160144A6004AB446 /* TETypes.h in Headers */,
+				D3AF67A2160144A6004AB446 /* TEUtilMatrix.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D3AF671E1601447E004AB446 /* Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AF672C1601447E004AB446 /* Build configuration list for PBXNativeTarget "Engine" */;
+			buildPhases = (
+				D3AF671B1601447E004AB446 /* Sources */,
+				D3AF671C1601447E004AB446 /* Frameworks */,
+				D3AF671D1601447E004AB446 /* Headers */,
+			);
+			buildRules = (
+				D3AF67C11601456D004AB446 /* PBXBuildRule */,
+				D3AF67C016014545004AB446 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Engine;
+			productName = Engine;
+			productReference = D3AF671F1601447E004AB446 /* libEngine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3AF67161601447E004AB446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D3AF67191601447E004AB446 /* Build configuration list for PBXProject "Engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3AF67141601447E004AB446;
+			productRefGroup = D3AF67201601447E004AB446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3AF671E1601447E004AB446 /* Engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3AF671B1601447E004AB446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3AF676A160144A6004AB446 /* EAGLView.mm in Sources */,
+				D3AF676B160144A6004AB446 /* TEComponent.cpp in Sources */,
+				D3AF676D160144A6004AB446 /* TEComponentRender.cpp in Sources */,
+				D3AF6770160144A6004AB446 /* TEComponentSound.mm in Sources */,
+				D3AF6771160144A6004AB446 /* TEComponentTouch.cpp in Sources */,
+				D3AF6774160144A6004AB446 /* TEEngine.mm in Sources */,
+				D3AF6777160144A6004AB446 /* TEGameObject.cpp in Sources */,
+				D3AF6779160144A6004AB446 /* TEInputTouch.cpp in Sources */,
+				D3AF677C160144A6004AB446 /* TEManagerComponent.cpp in Sources */,
+				D3AF677F160144A6004AB446 /* TEManagerFile.mm in Sources */,
+				D3AF6780160144A6004AB446 /* TEManagerInput.cpp in Sources */,
+				D3AF6783160144A6004AB446 /* TEManagerProfiler.mm in Sources */,
+				D3AF6785160144A6004AB446 /* TEManagerRender.mm in Sources */,
+				D3AF6787160144A6004AB446 /* TEManagerSound.mm in Sources */,
+				D3AF6789160144A6004AB446 /* TEManagerTexture.mm in Sources */,
+				D3AF678B160144A6004AB446 /* TEManagerTime.mm in Sources */,
+				D3AF678C160144A6004AB446 /* TEManagerTouch.cpp in Sources */,
+				D3AF678F160144A6004AB446 /* TEProgramPolygon.mm in Sources */,
+				D3AF6791160144A6004AB446 /* TERenderer.mm in Sources */,
+				D3AF6793160144A6004AB446 /* TERendererBasic.mm in Sources */,
+				D3AF6795160144A6004AB446 /* TERendererKernel.mm in Sources */,
+				D3AF6797160144A6004AB446 /* TERendererOGL2.mm in Sources */,
+				D3AF6799160144A6004AB446 /* TERendererProgram.mm in Sources */,
+				D3AF679B160144A6004AB446 /* TERendererTexture.mm in Sources */,
+				D3AF679D160144A6004AB446 /* TERenderTarget.mm in Sources */,
+				D3AF679F160144A6004AB446 /* TERunnable.mm in Sources */,
+				D3AF67A1160144A6004AB446 /* TEUtilMatrix.cpp in Sources */,
+				D3AF67B2160144D4004AB446 /* blur.fs in Sources */,
+				D3AF67B3160144D4004AB446 /* colorbox.fs in Sources */,
+				D3AF67B4160144D4004AB446 /* colorbox.vs in Sources */,
+				D3AF67B5160144D4004AB446 /* grayscale.fs in Sources */,
+				D3AF67B6160144D4004AB446 /* grow.fs in Sources */,
+				D3AF67B7160144D4004AB446 /* negative.fs in Sources */,
+				D3AF67B8160144D4004AB446 /* polygon.fs in Sources */,
+				D3AF67B9160144D4004AB446 /* polygon.vs in Sources */,
+				D3AF67BA160144D4004AB446 /* sepia.fs in Sources */,
+				D3AF67BB160144D4004AB446 /* texture.fs in Sources */,
+				D3AF67BC160144D4004AB446 /* texture.vs in Sources */,
+				D3AF67BD160144D4004AB446 /* toon.fs in Sources */,
+				D3AF67BE160144D4004AB446 /* transparentcolor.fs in Sources */,
+				D3AF67BF160144D4004AB446 /* yellow.fs in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3AF672A1601447E004AB446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3AF672B1601447E004AB446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3AF672D1601447E004AB446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Engine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Engine/Engine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3AF672E1601447E004AB446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Engine.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Engine/Engine-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3AF67191601447E004AB446 /* Build configuration list for PBXProject "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AF672A1601447E004AB446 /* Debug */,
+				D3AF672B1601447E004AB446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AF672C1601447E004AB446 /* Build configuration list for PBXNativeTarget "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3AF672D1601447E004AB446 /* Debug */,
+				D3AF672E1601447E004AB446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3AF67161601447E004AB446 /* Project object */;
+}
