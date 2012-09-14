@@ -201,6 +201,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32BF6411602CF9F00A7A200 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF67A4160144D4004AB446 /* blur.fs */,
+				D3AF67A5160144D4004AB446 /* colorbox.fs */,
+				D3AF67A6160144D4004AB446 /* colorbox.vs */,
+				D3AF67A7160144D4004AB446 /* grayscale.fs */,
+				D3AF67A8160144D4004AB446 /* grow.fs */,
+				D3AF67A9160144D4004AB446 /* negative.fs */,
+				D3AF67AA160144D4004AB446 /* polygon.fs */,
+				D3AF67AB160144D4004AB446 /* polygon.vs */,
+				D3AF67AC160144D4004AB446 /* sepia.fs */,
+				D3AF67AD160144D4004AB446 /* texture.fs */,
+				D3AF67AE160144D4004AB446 /* texture.vs */,
+				D3AF67AF160144D4004AB446 /* toon.fs */,
+				D3AF67B0160144D4004AB446 /* transparentcolor.fs */,
+				D3AF67B1160144D4004AB446 /* yellow.fs */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		D33DB17E1602B1FB007ADC0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +263,7 @@
 		D3AF67241601447E004AB446 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				D32BF6411602CF9F00A7A200 /* Shaders */,
 				D33DB17E1602B1FB007ADC0A /* Components */,
 				D3AF672F160144A5004AB446 /* EAGLView.h */,
 				D3AF6730160144A5004AB446 /* EAGLView.mm */,
@@ -317,20 +339,6 @@
 		D3AF67A3160144B0004AB446 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				D3AF67A4160144D4004AB446 /* blur.fs */,
-				D3AF67A5160144D4004AB446 /* colorbox.fs */,
-				D3AF67A6160144D4004AB446 /* colorbox.vs */,
-				D3AF67A7160144D4004AB446 /* grayscale.fs */,
-				D3AF67A8160144D4004AB446 /* grow.fs */,
-				D3AF67A9160144D4004AB446 /* negative.fs */,
-				D3AF67AA160144D4004AB446 /* polygon.fs */,
-				D3AF67AB160144D4004AB446 /* polygon.vs */,
-				D3AF67AC160144D4004AB446 /* sepia.fs */,
-				D3AF67AD160144D4004AB446 /* texture.fs */,
-				D3AF67AE160144D4004AB446 /* texture.vs */,
-				D3AF67AF160144D4004AB446 /* toon.fs */,
-				D3AF67B0160144D4004AB446 /* transparentcolor.fs */,
-				D3AF67B1160144D4004AB446 /* yellow.fs */,
 			);
 			name = Shaders;
 			path = Engine;
