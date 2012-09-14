@@ -108,16 +108,16 @@ void TERendererOGL2::createPrograms() {
     mShaderPrograms[ShaderBasic] = rp;
     rp->addAttribute("aVertices");
 
+    rp = new TERendererLines(vertexSource, fragmentSource);
+    mShaderPrograms[ShaderLines] = rp;
+    rp->addAttribute("aVertices");
+
     vertexSource = TEManagerFile::readFileContents("polygon.vs");
     fragmentSource = TEManagerFile::readFileContents("polygon.fs");
     rp = new TEProgramPolygon(vertexSource, fragmentSource);
     mShaderPrograms[ShaderPolygon] = rp;
     rp->addAttribute("aVertices");
     rp->addAttribute("aColor");
-
-    rp = new TERendererLines(vertexSource, fragmentSource);
-    mShaderPrograms[ShaderLines] = rp;
-    rp->addAttribute("aVertices");
 }
 
 void TERendererOGL2::render() {

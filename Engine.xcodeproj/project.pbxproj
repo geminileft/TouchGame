@@ -168,8 +168,8 @@
 		D3AF6759160144A5004AB446 /* TERendererBasic.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererBasic.mm; sourceTree = "<group>"; };
 		D3AF675A160144A5004AB446 /* TERendererKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererKernel.h; sourceTree = "<group>"; };
 		D3AF675B160144A5004AB446 /* TERendererKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererKernel.mm; sourceTree = "<group>"; };
-		D3AF675C160144A6004AB446 /* TERendererOGL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TERendererOGL2.h; path = ../TERendererOGL2.h; sourceTree = "<group>"; };
-		D3AF675D160144A6004AB446 /* TERendererOGL2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TERendererOGL2.mm; path = ../TERendererOGL2.mm; sourceTree = "<group>"; };
+		D3AF675C160144A6004AB446 /* TERendererOGL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererOGL2.h; sourceTree = "<group>"; };
+		D3AF675D160144A6004AB446 /* TERendererOGL2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererOGL2.mm; sourceTree = "<group>"; };
 		D3AF675E160144A6004AB446 /* TERendererProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererProgram.h; sourceTree = "<group>"; };
 		D3AF675F160144A6004AB446 /* TERendererProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererProgram.mm; sourceTree = "<group>"; };
 		D3AF6760160144A6004AB446 /* TERendererTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererTexture.h; sourceTree = "<group>"; };
@@ -212,8 +212,6 @@
 		D32BF6411602CF9F00A7A200 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				D3AF675C160144A6004AB446 /* TERendererOGL2.h */,
-				D3AF675D160144A6004AB446 /* TERendererOGL2.mm */,
 				D3AF67A4160144D4004AB446 /* blur.fs */,
 				D3AF67A5160144D4004AB446 /* colorbox.fs */,
 				D3AF67A6160144D4004AB446 /* colorbox.vs */,
@@ -291,9 +289,9 @@
 		D3AF67241601447E004AB446 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				D37B7C7D1602D42D00346C42 /* Render Programs */,
 				D32BF6411602CF9F00A7A200 /* Shaders */,
 				D33DB17E1602B1FB007ADC0A /* Components */,
-				D37B7C7D1602D42D00346C42 /* Render Programs */,
 				D3AF672F160144A5004AB446 /* EAGLView.h */,
 				D3AF6730160144A5004AB446 /* EAGLView.mm */,
 				D3AF6731160144A5004AB446 /* TEComponent.cpp */,
@@ -335,6 +333,8 @@
 				D3AF6755160144A5004AB446 /* TEProgramPolygon.mm */,
 				D3AF6756160144A5004AB446 /* TERenderer.h */,
 				D3AF6757160144A5004AB446 /* TERenderer.mm */,
+				D3AF675C160144A6004AB446 /* TERendererOGL2.h */,
+				D3AF675D160144A6004AB446 /* TERendererOGL2.mm */,
 				D3AF6762160144A6004AB446 /* TERenderTarget.h */,
 				D3AF6763160144A6004AB446 /* TERenderTarget.mm */,
 				D3AF6764160144A6004AB446 /* TERunnable.h */,
