@@ -1,5 +1,4 @@
 #include "TERendererKernel.h"
-#include <OpenGLES/ES2/glext.h>
 
 TERendererKernel::TERendererKernel() {}
 

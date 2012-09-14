@@ -2,6 +2,7 @@
 #define TERENDERERPROGRAM
 
 #include "TETypes.h"
+#include <OpenGLES/ES2/glext.h>
 
 class TERenderTarget;
 

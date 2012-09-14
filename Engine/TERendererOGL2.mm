@@ -11,6 +11,7 @@
 #include "TERenderTarget.h"
 #include "TERendererTexture.h"
 #include "TERendererKernel.h"
+#include "TERendererLines.h"
 #include "TEProgramPolygon.h"
 #include "TEManagerTime.h"
 #include "TEManagerProfiler.h"
@@ -113,6 +114,10 @@ void TERendererOGL2::createPrograms() {
     mShaderPrograms[ShaderPolygon] = rp;
     rp->addAttribute("aVertices");
     rp->addAttribute("aColor");
+
+    rp = new TERendererLines(vertexSource, fragmentSource);
+    mShaderPrograms[ShaderLines] = rp;
+    rp->addAttribute("aVertices");
 }
 
 void TERendererOGL2::render() {

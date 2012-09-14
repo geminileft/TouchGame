@@ -1,5 +1,4 @@
 #include "TERendererTexture.h"
-#include <OpenGLES/ES2/glext.h>
 
 TERendererTexture::TERendererTexture() {}
 

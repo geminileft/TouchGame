@@ -71,7 +71,9 @@ void TERenderTarget::addPrimative(TERenderPrimative primative) {
     std::vector<TERenderPrimative> primatives;
     
     if (primative.textureBuffer == NULL) {
-        if (!primative.colorData)
+        if (primative.extraType == ShaderLines)
+            type = ShaderLines;
+        else if (!primative.colorData)
             type = ShaderBasic;
         else
             type = ShaderPolygon;

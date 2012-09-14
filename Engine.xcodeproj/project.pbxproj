@@ -11,6 +11,10 @@
 		D33DB1831602B214007ADC0A /* RenderImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33DB1811602B214007ADC0A /* RenderImage.mm */; };
 		D33DB30E1602C9E1007ADC0A /* RenderPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */; };
 		D33DB30F1602C9E1007ADC0A /* RenderPolygon.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */; };
+		D37B7C731602D32A00346C42 /* RenderRain.h in Headers */ = {isa = PBXBuildFile; fileRef = D37B7C711602D32A00346C42 /* RenderRain.h */; };
+		D37B7C741602D32A00346C42 /* RenderRain.mm in Sources */ = {isa = PBXBuildFile; fileRef = D37B7C721602D32A00346C42 /* RenderRain.mm */; };
+		D37B7C7B1602D40300346C42 /* TERendererLines.h in Headers */ = {isa = PBXBuildFile; fileRef = D37B7C791602D40200346C42 /* TERendererLines.h */; };
+		D37B7C7C1602D40300346C42 /* TERendererLines.mm in Sources */ = {isa = PBXBuildFile; fileRef = D37B7C7A1602D40300346C42 /* TERendererLines.mm */; };
 		D3AF67231601447E004AB446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AF67221601447E004AB446 /* Foundation.framework */; };
 		D3AF6769160144A6004AB446 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF672F160144A5004AB446 /* EAGLView.h */; };
 		D3AF676A160144A6004AB446 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6730160144A5004AB446 /* EAGLView.mm */; };
@@ -112,6 +116,10 @@
 		D33DB1811602B214007ADC0A /* RenderImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderImage.mm; sourceTree = "<group>"; };
 		D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderPolygon.h; sourceTree = "<group>"; };
 		D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderPolygon.mm; sourceTree = "<group>"; };
+		D37B7C711602D32A00346C42 /* RenderRain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderRain.h; sourceTree = "<group>"; };
+		D37B7C721602D32A00346C42 /* RenderRain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderRain.mm; sourceTree = "<group>"; };
+		D37B7C791602D40200346C42 /* TERendererLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererLines.h; sourceTree = "<group>"; };
+		D37B7C7A1602D40300346C42 /* TERendererLines.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererLines.mm; sourceTree = "<group>"; };
 		D3AF671F1601447E004AB446 /* libEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF67221601447E004AB446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3AF67261601447E004AB446 /* Engine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Engine-Prefix.pch"; sourceTree = "<group>"; };
@@ -160,8 +168,8 @@
 		D3AF6759160144A5004AB446 /* TERendererBasic.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererBasic.mm; sourceTree = "<group>"; };
 		D3AF675A160144A5004AB446 /* TERendererKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererKernel.h; sourceTree = "<group>"; };
 		D3AF675B160144A5004AB446 /* TERendererKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererKernel.mm; sourceTree = "<group>"; };
-		D3AF675C160144A6004AB446 /* TERendererOGL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererOGL2.h; sourceTree = "<group>"; };
-		D3AF675D160144A6004AB446 /* TERendererOGL2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererOGL2.mm; sourceTree = "<group>"; };
+		D3AF675C160144A6004AB446 /* TERendererOGL2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TERendererOGL2.h; path = ../TERendererOGL2.h; sourceTree = "<group>"; };
+		D3AF675D160144A6004AB446 /* TERendererOGL2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TERendererOGL2.mm; path = ../TERendererOGL2.mm; sourceTree = "<group>"; };
 		D3AF675E160144A6004AB446 /* TERendererProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererProgram.h; sourceTree = "<group>"; };
 		D3AF675F160144A6004AB446 /* TERendererProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TERendererProgram.mm; sourceTree = "<group>"; };
 		D3AF6760160144A6004AB446 /* TERendererTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TERendererTexture.h; sourceTree = "<group>"; };
@@ -204,6 +212,8 @@
 		D32BF6411602CF9F00A7A200 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
+				D3AF675C160144A6004AB446 /* TERendererOGL2.h */,
+				D3AF675D160144A6004AB446 /* TERendererOGL2.mm */,
 				D3AF67A4160144D4004AB446 /* blur.fs */,
 				D3AF67A5160144D4004AB446 /* colorbox.fs */,
 				D3AF67A6160144D4004AB446 /* colorbox.vs */,
@@ -225,18 +235,36 @@
 		D33DB17E1602B1FB007ADC0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */,
-				D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */,
 				D33DB1801602B214007ADC0A /* RenderImage.h */,
 				D33DB1811602B214007ADC0A /* RenderImage.mm */,
+				D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */,
+				D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */,
+				D37B7C711602D32A00346C42 /* RenderRain.h */,
+				D37B7C721602D32A00346C42 /* RenderRain.mm */,
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		D37B7C7D1602D42D00346C42 /* Render Programs */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF6758160144A5004AB446 /* TERendererBasic.h */,
+				D3AF6759160144A5004AB446 /* TERendererBasic.mm */,
+				D3AF675A160144A5004AB446 /* TERendererKernel.h */,
+				D3AF675B160144A5004AB446 /* TERendererKernel.mm */,
+				D37B7C791602D40200346C42 /* TERendererLines.h */,
+				D37B7C7A1602D40300346C42 /* TERendererLines.mm */,
+				D3AF675E160144A6004AB446 /* TERendererProgram.h */,
+				D3AF675F160144A6004AB446 /* TERendererProgram.mm */,
+				D3AF6760160144A6004AB446 /* TERendererTexture.h */,
+				D3AF6761160144A6004AB446 /* TERendererTexture.mm */,
+			);
+			name = "Render Programs";
 			sourceTree = "<group>";
 		};
 		D3AF67141601447E004AB446 = {
 			isa = PBXGroup;
 			children = (
-				D3AF67A3160144B0004AB446 /* Shaders */,
 				D3AF67241601447E004AB446 /* Engine */,
 				D3AF67251601447E004AB446 /* Supporting Files */,
 				D3AF67211601447E004AB446 /* Frameworks */,
@@ -265,6 +293,7 @@
 			children = (
 				D32BF6411602CF9F00A7A200 /* Shaders */,
 				D33DB17E1602B1FB007ADC0A /* Components */,
+				D37B7C7D1602D42D00346C42 /* Render Programs */,
 				D3AF672F160144A5004AB446 /* EAGLView.h */,
 				D3AF6730160144A5004AB446 /* EAGLView.mm */,
 				D3AF6731160144A5004AB446 /* TEComponent.cpp */,
@@ -306,16 +335,6 @@
 				D3AF6755160144A5004AB446 /* TEProgramPolygon.mm */,
 				D3AF6756160144A5004AB446 /* TERenderer.h */,
 				D3AF6757160144A5004AB446 /* TERenderer.mm */,
-				D3AF6758160144A5004AB446 /* TERendererBasic.h */,
-				D3AF6759160144A5004AB446 /* TERendererBasic.mm */,
-				D3AF675A160144A5004AB446 /* TERendererKernel.h */,
-				D3AF675B160144A5004AB446 /* TERendererKernel.mm */,
-				D3AF675C160144A6004AB446 /* TERendererOGL2.h */,
-				D3AF675D160144A6004AB446 /* TERendererOGL2.mm */,
-				D3AF675E160144A6004AB446 /* TERendererProgram.h */,
-				D3AF675F160144A6004AB446 /* TERendererProgram.mm */,
-				D3AF6760160144A6004AB446 /* TERendererTexture.h */,
-				D3AF6761160144A6004AB446 /* TERendererTexture.mm */,
 				D3AF6762160144A6004AB446 /* TERenderTarget.h */,
 				D3AF6763160144A6004AB446 /* TERenderTarget.mm */,
 				D3AF6764160144A6004AB446 /* TERunnable.h */,
@@ -333,14 +352,6 @@
 				D3AF67261601447E004AB446 /* Engine-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			path = Engine;
-			sourceTree = "<group>";
-		};
-		D3AF67A3160144B0004AB446 /* Shaders */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Shaders;
 			path = Engine;
 			sourceTree = "<group>";
 		};
@@ -384,6 +395,8 @@
 				D3AF67A2160144A6004AB446 /* TEUtilMatrix.h in Headers */,
 				D33DB1821602B214007ADC0A /* RenderImage.h in Headers */,
 				D33DB30E1602C9E1007ADC0A /* RenderPolygon.h in Headers */,
+				D37B7C731602D32A00346C42 /* RenderRain.h in Headers */,
+				D37B7C7B1602D40300346C42 /* TERendererLines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +495,8 @@
 				D3AF67BF160144D4004AB446 /* yellow.fs in Sources */,
 				D33DB1831602B214007ADC0A /* RenderImage.mm in Sources */,
 				D33DB30F1602C9E1007ADC0A /* RenderPolygon.mm in Sources */,
+				D37B7C741602D32A00346C42 /* RenderRain.mm in Sources */,
+				D37B7C7C1602D40300346C42 /* TERendererLines.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

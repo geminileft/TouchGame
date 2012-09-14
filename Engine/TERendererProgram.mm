@@ -1,7 +1,6 @@
 #include "TERendererProgram.h"
 #include "TEUtilMatrix.h"
 #include "TERenderTarget.h"
-#include <OpenGLES/ES2/glext.h>
 
 TERendererProgram::TERendererProgram() {
 }
