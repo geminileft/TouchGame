@@ -88,6 +88,10 @@
 		D3AF67BD160144D4004AB446 /* toon.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67AF160144D4004AB446 /* toon.fs */; };
 		D3AF67BE160144D4004AB446 /* transparentcolor.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67B0160144D4004AB446 /* transparentcolor.fs */; };
 		D3AF67BF160144D4004AB446 /* yellow.fs in Sources */ = {isa = PBXBuildFile; fileRef = D3AF67B1160144D4004AB446 /* yellow.fs */; };
+		D3CDC2461602DDB3003C1CDF /* RenderPolygonFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CDC2421602DDB3003C1CDF /* RenderPolygonFactory.h */; };
+		D3CDC2471602DDB3003C1CDF /* RenderPolygonFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3CDC2431602DDB3003C1CDF /* RenderPolygonFactory.mm */; };
+		D3CDC2481602DDB3003C1CDF /* RenderToTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CDC2441602DDB3003C1CDF /* RenderToTexture.h */; };
+		D3CDC2491602DDB3003C1CDF /* RenderToTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3CDC2451602DDB3003C1CDF /* RenderToTexture.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -195,6 +199,10 @@
 		D3AF67AF160144D4004AB446 /* toon.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = toon.fs; sourceTree = "<group>"; };
 		D3AF67B0160144D4004AB446 /* transparentcolor.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = transparentcolor.fs; sourceTree = "<group>"; };
 		D3AF67B1160144D4004AB446 /* yellow.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = yellow.fs; sourceTree = "<group>"; };
+		D3CDC2421602DDB3003C1CDF /* RenderPolygonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderPolygonFactory.h; sourceTree = "<group>"; };
+		D3CDC2431602DDB3003C1CDF /* RenderPolygonFactory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderPolygonFactory.mm; sourceTree = "<group>"; };
+		D3CDC2441602DDB3003C1CDF /* RenderToTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderToTexture.h; sourceTree = "<group>"; };
+		D3CDC2451602DDB3003C1CDF /* RenderToTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderToTexture.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +241,10 @@
 		D33DB17E1602B1FB007ADC0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D3CDC2421602DDB3003C1CDF /* RenderPolygonFactory.h */,
+				D3CDC2431602DDB3003C1CDF /* RenderPolygonFactory.mm */,
+				D3CDC2441602DDB3003C1CDF /* RenderToTexture.h */,
+				D3CDC2451602DDB3003C1CDF /* RenderToTexture.mm */,
 				D33DB1801602B214007ADC0A /* RenderImage.h */,
 				D33DB1811602B214007ADC0A /* RenderImage.mm */,
 				D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */,
@@ -397,6 +409,8 @@
 				D33DB30E1602C9E1007ADC0A /* RenderPolygon.h in Headers */,
 				D37B7C731602D32A00346C42 /* RenderRain.h in Headers */,
 				D37B7C7B1602D40300346C42 /* TERendererLines.h in Headers */,
+				D3CDC2461602DDB3003C1CDF /* RenderPolygonFactory.h in Headers */,
+				D3CDC2481602DDB3003C1CDF /* RenderToTexture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +511,8 @@
 				D33DB30F1602C9E1007ADC0A /* RenderPolygon.mm in Sources */,
 				D37B7C741602D32A00346C42 /* RenderRain.mm in Sources */,
 				D37B7C7C1602D40300346C42 /* TERendererLines.mm in Sources */,
+				D3CDC2471602DDB3003C1CDF /* RenderPolygonFactory.mm in Sources */,
+				D3CDC2491602DDB3003C1CDF /* RenderToTexture.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
