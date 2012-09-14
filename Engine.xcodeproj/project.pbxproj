@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33DB1821602B214007ADC0A /* RenderImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D33DB1801602B214007ADC0A /* RenderImage.h */; };
+		D33DB1831602B214007ADC0A /* RenderImage.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33DB1811602B214007ADC0A /* RenderImage.mm */; };
+		D33DB30E1602C9E1007ADC0A /* RenderPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */; };
+		D33DB30F1602C9E1007ADC0A /* RenderPolygon.mm in Sources */ = {isa = PBXBuildFile; fileRef = D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */; };
 		D3AF67231601447E004AB446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AF67221601447E004AB446 /* Foundation.framework */; };
 		D3AF6769160144A6004AB446 /* EAGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3AF672F160144A5004AB446 /* EAGLView.h */; };
 		D3AF676A160144A6004AB446 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D3AF6730160144A5004AB446 /* EAGLView.mm */; };
@@ -104,6 +108,10 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
+		D33DB1801602B214007ADC0A /* RenderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderImage.h; sourceTree = "<group>"; };
+		D33DB1811602B214007ADC0A /* RenderImage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderImage.mm; sourceTree = "<group>"; };
+		D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderPolygon.h; sourceTree = "<group>"; };
+		D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderPolygon.mm; sourceTree = "<group>"; };
 		D3AF671F1601447E004AB446 /* libEngine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEngine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF67221601447E004AB446 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D3AF67261601447E004AB446 /* Engine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Engine-Prefix.pch"; sourceTree = "<group>"; };
@@ -193,6 +201,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D33DB17E1602B1FB007ADC0A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D33DB30C1602C9E1007ADC0A /* RenderPolygon.h */,
+				D33DB30D1602C9E1007ADC0A /* RenderPolygon.mm */,
+				D33DB1801602B214007ADC0A /* RenderImage.h */,
+				D33DB1811602B214007ADC0A /* RenderImage.mm */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		D3AF67141601447E004AB446 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +242,7 @@
 		D3AF67241601447E004AB446 /* Engine */ = {
 			isa = PBXGroup;
 			children = (
+				D33DB17E1602B1FB007ADC0A /* Components */,
 				D3AF672F160144A5004AB446 /* EAGLView.h */,
 				D3AF6730160144A5004AB446 /* EAGLView.mm */,
 				D3AF6731160144A5004AB446 /* TEComponent.cpp */,
@@ -354,6 +374,8 @@
 				D3AF679E160144A6004AB446 /* TERunnable.h in Headers */,
 				D3AF67A0160144A6004AB446 /* TETypes.h in Headers */,
 				D3AF67A2160144A6004AB446 /* TEUtilMatrix.h in Headers */,
+				D33DB1821602B214007ADC0A /* RenderImage.h in Headers */,
+				D33DB30E1602C9E1007ADC0A /* RenderPolygon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +472,8 @@
 				D3AF67BD160144D4004AB446 /* toon.fs in Sources */,
 				D3AF67BE160144D4004AB446 /* transparentcolor.fs in Sources */,
 				D3AF67BF160144D4004AB446 /* yellow.fs in Sources */,
+				D33DB1831602B214007ADC0A /* RenderImage.mm in Sources */,
+				D33DB30F1602C9E1007ADC0A /* RenderPolygon.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +563,7 @@
 				D3AF672E1601447E004AB446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

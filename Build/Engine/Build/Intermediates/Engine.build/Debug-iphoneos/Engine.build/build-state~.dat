@@ -1,695 +1,0 @@
-TEngine
-v5
-r1
-cCheck dependencies
-cProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o /Users/graphics/Projects/Engine/Engine/TEComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o /Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o /Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o /Users/graphics/Projects/Engine/Engine/TEGameObject.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o /Users/graphics/Projects/Engine/Engine/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o /Users/graphics/Projects/Engine/Engine/TEComponentSound.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o /Users/graphics/Projects/Engine/Engine/TEEngine.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o /Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
-c000000004F453DF20000000000000110
-t1329937906
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004FA0D291000000000052C940
-t1335939729
-s5425472
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/Engine.LinkFileList
-c0000000050510D660000000000000F2D
-t1347489126
-s3885
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/Engine.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerComponent.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerFile.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerInput.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerProfiler.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerRender.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerSound.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTexture.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTime.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTouch.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEProgramPolygon.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERenderTarget.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERenderer.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererBasic.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererKernel.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererOGL2.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererProgram.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererTexture.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERunnable.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEUtilMatrix.o
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dvjisqdxkvbhtdbogrhekgtngagr/Engine-Prefix.pch.pth
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/libEngine.a
-t2
-s0
-
-N/Users/graphics/Projects/Engine/Engine/EAGLView.mm
-c000000004FD1983B00000000000006AB
-t1339136059
-s1707
-
-N/Users/graphics/Projects/Engine/Engine/Engine-Prefix.pch
-c0000000050510CFE0000000000000099
-t1347489022
-s153
-
-N/Users/graphics/Projects/Engine/Engine/Engine.m
-c0000000050510CFE00000000000000B6
-t1347489022
-s182
-
-N/Users/graphics/Projects/Engine/Engine/TEComponent.cpp
-c000000004FD1983B0000000000000259
-t1339136059
-s601
-
-N/Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp
-c000000004FD1983B00000000000006F3
-t1339136059
-s1779
-
-N/Users/graphics/Projects/Engine/Engine/TEComponentSound.mm
-c000000004FD1983B00000000000002E4
-t1339136059
-s740
-
-N/Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp
-c000000004FD1983B0000000000000312
-t1339136059
-s786
-
-N/Users/graphics/Projects/Engine/Engine/TEEngine.mm
-c000000004FD5431B0000000000000B91
-t1339376411
-s2961
-
-N/Users/graphics/Projects/Engine/Engine/TEGameObject.cpp
-c000000004FD1983B00000000000006F5
-t1339136059
-s1781
-
-N/Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp
-c000000004FD1983B00000000000004FC
-t1339136059
-s1276
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerComponent.cpp
-c000000004FD1983B0000000000000287
-t1339136059
-s647
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerFile.mm
-c000000004FD1983B000000000000023F
-t1339136059
-s575
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerInput.cpp
-c000000004FD1983B00000000000005B8
-t1339136059
-s1464
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerProfiler.mm
-c000000004FD19B8000000000000001FF
-t1339136896
-s511
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerRender.mm
-c000000004FD1983B00000000000003EA
-t1339136059
-s1002
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerSound.mm
-c000000004FD1983B000000000000021D
-t1339136059
-s541
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerTexture.mm
-c000000004FD5416C00000000000013F3
-t1339375980
-s5107
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerTime.mm
-c000000004FD19B800000000000000089
-t1339136896
-s137
-
-N/Users/graphics/Projects/Engine/Engine/TEManagerTouch.cpp
-c000000004FD1983B0000000000000894
-t1339136059
-s2196
-
-N/Users/graphics/Projects/Engine/Engine/TEProgramPolygon.mm
-c000000004FD19B8000000000000003DA
-t1339136896
-s986
-
-N/Users/graphics/Projects/Engine/Engine/TERenderTarget.mm
-c000000004FD2E3790000000000000E43
-t1339220857
-s3651
-
-N/Users/graphics/Projects/Engine/Engine/TERenderer.mm
-c000000004FD2E3AF0000000000000829
-t1339220911
-s2089
-
-N/Users/graphics/Projects/Engine/Engine/TERendererBasic.mm
-c000000004FD1983B00000000000003DD
-t1339136059
-s989
-
-N/Users/graphics/Projects/Engine/Engine/TERendererKernel.mm
-c000000004FD1983B000000000000131C
-t1339136059
-s4892
-
-N/Users/graphics/Projects/Engine/Engine/TERendererOGL2.mm
-c000000004FD542DB000000000000176F
-t1339376347
-s5999
-
-N/Users/graphics/Projects/Engine/Engine/TERendererProgram.mm
-c000000004FD1983B0000000000000B93
-t1339136059
-s2963
-
-N/Users/graphics/Projects/Engine/Engine/TERendererTexture.mm
-c000000004FD1983B00000000000004BC
-t1339136059
-s1212
-
-N/Users/graphics/Projects/Engine/Engine/TERunnable.mm
-c000000004FD1983B0000000000000239
-t1339136059
-s569
-
-N/Users/graphics/Projects/Engine/Engine/TEUtilMatrix.cpp
-c000000004FD1983B0000000000001103
-t1339136059
-s4355
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/EAGLView.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/Engine.m
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEComponent.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEComponentSound.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEEngine.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEGameObject.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerComponent.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerFile.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerInput.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerProfiler.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerRender.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerSound.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerTexture.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerTime.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEManagerTouch.cpp
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEProgramPolygon.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERenderTarget.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERenderer.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERendererBasic.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERendererKernel.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERendererOGL2.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERendererProgram.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERendererTexture.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TERunnable.mm
-r0
-
-CBuild AST from /Users/graphics/Projects/Engine/Engine/TEUtilMatrix.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb2d9ede54401b641^414610e64401b641^-1612"warning: no rule to process file '$(PROJECT_DIR)/Engine/blur.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/colorbox.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/colorbox.vs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/grayscale.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/grow.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/negative.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/polygon.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/polygon.vs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/sepia.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/texture.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/texture.vs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/toon.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/transparentcolor.fs' of type sourcecode.glsl for architecture armv7warning: no rule to process file '$(PROJECT_DIR)/Engine/yellow.fs' of type sourcecode.glsl for architecture armv714(21%IDEActivityLogMessage2@111"Warning: no rule to process file '$(PROJECT_DIR)/Engine/blur.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@115"Warning: no rule to process file '$(PROJECT_DIR)/Engine/colorbox.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@115"Warning: no rule to process file '$(PROJECT_DIR)/Engine/colorbox.vs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@116"Warning: no rule to process file '$(PROJECT_DIR)/Engine/grayscale.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@111"Warning: no rule to process file '$(PROJECT_DIR)/Engine/grow.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@115"Warning: no rule to process file '$(PROJECT_DIR)/Engine/negative.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@114"Warning: no rule to process file '$(PROJECT_DIR)/Engine/polygon.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@114"Warning: no rule to process file '$(PROJECT_DIR)/Engine/polygon.vs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@112"Warning: no rule to process file '$(PROJECT_DIR)/Engine/sepia.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@114"Warning: no rule to process file '$(PROJECT_DIR)/Engine/texture.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@114"Warning: no rule to process file '$(PROJECT_DIR)/Engine/texture.vs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@111"Warning: no rule to process file '$(PROJECT_DIR)/Engine/toon.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@123"Warning: no rule to process file '$(PROJECT_DIR)/Engine/transparentcolor.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@113"Warning: no rule to process file '$(PROJECT_DIR)/Engine/yellow.fs' of type sourcecode.glsl for architecture armv7-369181926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"A32C23D9-FBAC-4D87-830F-ACCD19E64AC7-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o /Users/graphics/Projects/Engine/Engine/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.637590
-e369181927.056552
-r0
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o
-x/Users/graphics/Projects/Engine/Engine/EAGLView.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/graphics/Projects/Engine/Engine/EAGLView.mm:1:
-o/Users/graphics/Projects/Engine/Engine/EAGLView.h:6:23: error: cannot find interface declaration for 'UIView', superclass of 'EAGLView'
-o@interface EAGLView : UIView
-o~~~~~~~~~~~~~~~~~~~   ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:13:50: error: expected a type
-o- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-o                                                 ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:25:50: error: expected a type
-o- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-o                                                 ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:37:50: error: expected a type
-o- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-o                                                 ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:15:27: error: use of undeclared identifier 'UIScreen'
-o    CGRect screenSize = [[UIScreen mainScreen] bounds];
-o                          ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:16:10: error: use of undeclared identifier 'UITouch'
-o    for (UITouch* touch in touches) {
-o         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:16:19: error: use of undeclared identifier 'touch'
-o    for (UITouch* touch in touches) {
-o                  ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:17:26: error: use of undeclared identifier 'touch'
-o        CGPoint point = [touch locationInView:self];
-o                         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:20:54: error: use of undeclared identifier 'touch'
-o        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);
-o                                                     ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:27:27: error: use of undeclared identifier 'UIScreen'
-o    CGRect screenSize = [[UIScreen mainScreen] bounds];
-o                          ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:28:10: error: use of undeclared identifier 'UITouch'
-o    for (UITouch* touch in touches) {
-o         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:28:19: error: use of undeclared identifier 'touch'
-o    for (UITouch* touch in touches) {
-o                  ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:29:26: error: use of undeclared identifier 'touch'
-o        CGPoint point = [touch locationInView:self];
-o                         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:32:54: error: use of undeclared identifier 'touch'
-o        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);
-o                                                     ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:39:27: error: use of undeclared identifier 'UIScreen'
-o    CGRect screenSize = [[UIScreen mainScreen] bounds];
-o                          ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:40:10: error: use of undeclared identifier 'UITouch'
-o    for (UITouch* touch in touches) {
-o         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:40:19: error: use of undeclared identifier 'touch'
-o    for (UITouch* touch in touches) {
-o                  ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:41:26: error: use of undeclared identifier 'touch'
-o        CGPoint point = [touch locationInView:self];
-o                         ^
-o/Users/graphics/Projects/Engine/Engine/EAGLView.mm:44:54: error: use of undeclared identifier 'touch'
-o        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);
-o                                                     ^
-ofatal error: too many errors emitted, stopping now [-ferror-limit=]
-o20 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/graphics/Projects/Engine/Engine/EAGLView.mma46ea3e64401b641^c1550ee74401b641^-3693"In file included from /Users/graphics/Projects/Engine/Engine/EAGLView.mm:1:/Users/graphics/Projects/Engine/Engine/EAGLView.h:6:23: error: cannot find interface declaration for 'UIView', superclass of 'EAGLView'@interface EAGLView : UIView~~~~~~~~~~~~~~~~~~~   ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:13:50: error: expected a type- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {                                                 ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:25:50: error: expected a type- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {                                                 ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:37:50: error: expected a type- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {                                                 ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:15:27: error: use of undeclared identifier 'UIScreen'    CGRect screenSize = [[UIScreen mainScreen] bounds];                          ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:16:10: error: use of undeclared identifier 'UITouch'    for (UITouch* touch in touches) {         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:16:19: error: use of undeclared identifier 'touch'    for (UITouch* touch in touches) {                  ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:17:26: error: use of undeclared identifier 'touch'        CGPoint point = [touch locationInView:self];                         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:20:54: error: use of undeclared identifier 'touch'        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);                                                     ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:27:27: error: use of undeclared identifier 'UIScreen'    CGRect screenSize = [[UIScreen mainScreen] bounds];                          ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:28:10: error: use of undeclared identifier 'UITouch'    for (UITouch* touch in touches) {         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:28:19: error: use of undeclared identifier 'touch'    for (UITouch* touch in touches) {                  ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:29:26: error: use of undeclared identifier 'touch'        CGPoint point = [touch locationInView:self];                         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:32:54: error: use of undeclared identifier 'touch'        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);                                                     ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:39:27: error: use of undeclared identifier 'UIScreen'    CGRect screenSize = [[UIScreen mainScreen] bounds];                          ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:40:10: error: use of undeclared identifier 'UITouch'    for (UITouch* touch in touches) {         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:40:19: error: use of undeclared identifier 'touch'    for (UITouch* touch in touches) {                  ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:41:26: error: use of undeclared identifier 'touch'        CGPoint point = [touch locationInView:self];                         ^/Users/graphics/Projects/Engine/Engine/EAGLView.mm:44:54: error: use of undeclared identifier 'touch'        TEInputTouch* inputTouch = new TEInputTouch([touch hash], x, y);                                                     ^fatal error: too many errors emitted, stopping now [-ferror-limit=]20 errors generated.20(36%IDEClangDiagnosticActivityLogMessage2@72"Cannot find interface declaration for 'UIView', superclass of 'EAGLView'-369181927#18446744073709551615#0#1(2@75"In file included from /Users/graphics/Projects/Engine/Engine/EAGLView.mm:1:-369181927#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^0#8#0#8#8#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.h0000000000000000^5#22#5#22#74#0#14"Semantic Issue1(3@65"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.h0000000000000000^5#0#5#19#52#11#-2@15"Expected a type-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^12#49#12#49#243#0#11"Parse Issue--2@15"Expected a type-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^24#49#24#49#732#0#11"Parse Issue--2@15"Expected a type-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^36#49#36#49#1221#0#11"Parse Issue--2@39"Use of undeclared identifier 'UIScreen'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^14#26#14#26#355#0#14"Semantic Issue--2@38"Use of undeclared identifier 'UITouch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^15#9#15#9#394#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^15#18#15#18#403#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^16#25#16#25#448#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^19#53#19#53#608#0#14"Semantic Issue--2@39"Use of undeclared identifier 'UIScreen'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^26#26#26#26#844#0#14"Semantic Issue--2@38"Use of undeclared identifier 'UITouch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^27#9#27#9#883#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^27#18#27#18#892#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^28#25#28#25#937#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^31#53#31#53#1098#0#14"Semantic Issue--2@39"Use of undeclared identifier 'UIScreen'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^38#26#38#26#1333#0#14"Semantic Issue--2@38"Use of undeclared identifier 'UITouch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^39#9#39#9#1372#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^39#18#39#18#1381#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^40#25#40#25#1426#0#14"Semantic Issue--2@36"Use of undeclared identifier 'touch'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^43#53#43#53#1587#0#14"Semantic Issue--2@37"Too many errors emitted, stopping now-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic-29"Apple LLVM compiler 3.1 Error--0#0#0#-19%DVTDocumentLocation4@66"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.mm0000000000000000^3295"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o Engine/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.dia -c /Users/graphics/Projects/Engine/Engine/EAGLView.mm -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/EAGLView.o36"3C6D3A27-3BC4-4EBC-8BA8-08A026F61F98-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/Engine.o /Users/graphics/Projects/Engine/Engine/Engine.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o /Users/graphics/Projects/Engine/Engine/TEComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.121188
-e369181926.645451
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o
-x/Users/graphics/Projects/Engine/Engine/TEComponent.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/graphics/Projects/Engine/Engine/TEComponent.cpp4b771fe64401b641^323da5e64401b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/graphics/Projects/Engine/Engine/TEComponent.cpp0000000000000000^2978"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o Engine/TEComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.dia -c /Users/graphics/Projects/Engine/Engine/TEComponent.cpp -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponent.o36"11B20C54-E66C-4662-A564-EC6637D33B32-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o /Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.121324
-e369181926.642702
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o
-x/Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/graphics/Projects/Engine/Engine/TEComponentRender.cppc93b1fe64401b641^5587a4e64401b641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp0000000000000000^3014"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o Engine/TEComponentRender.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.dia -c /Users/graphics/Projects/Engine/Engine/TEComponentRender.cpp -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentRender.o36"12B196E1-C18B-496B-BE8F-A800F4328151-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o /Users/graphics/Projects/Engine/Engine/TEComponentSound.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.644249
-e369181927.009349
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o
-x/Users/graphics/Projects/Engine/Engine/TEComponentSound.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/graphics/Projects/Engine/Engine/TEComponentSound.mm8526a5e64401b641^fa6302e74401b641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/graphics/Projects/Engine/Engine/TEComponentSound.mm0000000000000000^3343"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o Engine/TEComponentSound.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.dia -c /Users/graphics/Projects/Engine/Engine/TEComponentSound.mm -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentSound.o36"BF1AD340-5D9B-44B2-9874-0C4881DF9959-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o /Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.121567
-e369181926.636258
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o
-x/Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/graphics/Projects/Engine/Engine/TEComponentTouch.cppb2481fe64401b641^baf5a2e64401b641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp0000000000000000^3008"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o Engine/TEComponentTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.dia -c /Users/graphics/Projects/Engine/Engine/TEComponentTouch.cpp -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEComponentTouch.o36"0FD23B7B-299F-4B10-949E-EC7AD92689B9-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o /Users/graphics/Projects/Engine/Engine/TEEngine.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.653979
-e369181927.261743
-r0
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o
-x/Users/graphics/Projects/Engine/Engine/TEEngine.mm
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:1:
-o/Users/graphics/Projects/Engine/Engine/TEEngine.h:19:5: error: unknown type name 'UIWindow'
-o    UIWindow* mWindow;
-o    ^
-oIn file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:15:
-o/Users/graphics/Projects/Engine/Engine/EAGLView.h:6:23: error: cannot find interface declaration for 'UIView', superclass of 'EAGLView'
-o@interface EAGLView : UIView
-o~~~~~~~~~~~~~~~~~~~   ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:71:22: error: use of undeclared identifier 'UIScreen'
-o    CGRect frame = [[UIScreen mainScreen] bounds];
-o                     ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:73:23: warning: class method '+alloc' not found (return type defaults to 'id')
-o    EAGLView* view = [[EAGLView alloc] initWithFrame:frame];
-o                      ^~~~~~~~~~~~~~~~
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:73:22: warning: instance method '-initWithFrame:' not found (return type defaults to 'id')
-o    EAGLView* view = [[EAGLView alloc] initWithFrame:frame];
-o                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:74:17: error: use of undeclared identifier 'UIWindow'
-o    mWindow = [[UIWindow alloc] initWithFrame:frame];
-o                ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:5: error: use of undeclared identifier 'UIViewController'
-o    UIViewController* vc = [[UIViewController alloc] init];
-o    ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:23: error: use of undeclared identifier 'vc'
-o    UIViewController* vc = [[UIViewController alloc] init];
-o                      ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:30: error: use of undeclared identifier 'UIViewController'
-o    UIViewController* vc = [[UIViewController alloc] init];
-o                             ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:76:5: error: use of undeclared identifier 'vc'
-o    vc.view = view;
-o    ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:77:34: error: use of undeclared identifier 'vc'
-o    mWindow.rootViewController = vc;
-o                                 ^
-o/Users/graphics/Projects/Engine/Engine/TEEngine.mm:79:41: error: property 'layer' not found on object of type 'EAGLView *'
-o    mRenderer = new TERendererOGL2(view.layer, mGameWidth, mGameHeight);
-o                                        ^
-o2 warnings and 10 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/graphics/Projects/Engine/Engine/TEEngine.mmdba2a8e64401b641^db3545e74401b641^-2446"In file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:1:/Users/graphics/Projects/Engine/Engine/TEEngine.h:19:5: error: unknown type name 'UIWindow'    UIWindow* mWindow;    ^In file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:15:/Users/graphics/Projects/Engine/Engine/EAGLView.h:6:23: error: cannot find interface declaration for 'UIView', superclass of 'EAGLView'@interface EAGLView : UIView~~~~~~~~~~~~~~~~~~~   ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:71:22: error: use of undeclared identifier 'UIScreen'    CGRect frame = [[UIScreen mainScreen] bounds];                     ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:73:23: warning: class method '+alloc' not found (return type defaults to 'id')    EAGLView* view = [[EAGLView alloc] initWithFrame:frame];                      ^~~~~~~~~~~~~~~~/Users/graphics/Projects/Engine/Engine/TEEngine.mm:73:22: warning: instance method '-initWithFrame:' not found (return type defaults to 'id')    EAGLView* view = [[EAGLView alloc] initWithFrame:frame];                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/graphics/Projects/Engine/Engine/TEEngine.mm:74:17: error: use of undeclared identifier 'UIWindow'    mWindow = [[UIWindow alloc] initWithFrame:frame];                ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:5: error: use of undeclared identifier 'UIViewController'    UIViewController* vc = [[UIViewController alloc] init];    ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:23: error: use of undeclared identifier 'vc'    UIViewController* vc = [[UIViewController alloc] init];                      ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:75:30: error: use of undeclared identifier 'UIViewController'    UIViewController* vc = [[UIViewController alloc] init];                             ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:76:5: error: use of undeclared identifier 'vc'    vc.view = view;    ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:77:34: error: use of undeclared identifier 'vc'    mWindow.rootViewController = vc;                                 ^/Users/graphics/Projects/Engine/Engine/TEEngine.mm:79:41: error: property 'layer' not found on object of type 'EAGLView *'    mRenderer = new TERendererOGL2(view.layer, mGameWidth, mGameHeight);                                        ^2 warnings and 10 errors generated.12(36%IDEClangDiagnosticActivityLogMessage2@28"Unknown type name 'UIWindow'-369181927#18446744073709551615#0#1(2@75"In file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:1:-369181927#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^0#9#0#9#9#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.h0000000000000000^18#4#18#4#293#0#11"Parse Issue--2@72"Cannot find interface declaration for 'UIView', superclass of 'EAGLView'-369181927#18446744073709551615#0#1(2@76"In file included from /Users/graphics/Projects/Engine/Engine/TEEngine.mm:15:-369181927#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^14#9#14#9#410#0#30"Apple LLVM compiler 3.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.h0000000000000000^5#22#5#22#74#0#14"Semantic Issue1(3@65"file://localhost/Users/graphics/Projects/Engine/Engine/EAGLView.h0000000000000000^5#0#5#19#52#11#-2@39"Use of undeclared identifier 'UIScreen'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^70#21#70#21#2412#0#14"Semantic Issue--2@62"Class method '+alloc' not found (return type defaults to 'id')-369181927#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^72#22#72#22#2469#0#14"Semantic Issue1(3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^72#22#72#38#2469#15#-2@74"Instance method '-initWithFrame:' not found (return type defaults to 'id')-369181927#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^72#21#72#21#2468#0#14"Semantic Issue1(3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^72#21#72#59#2468#37#-2@39"Use of undeclared identifier 'UIWindow'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^73#16#73#16#2524#0#14"Semantic Issue--2@47"Use of undeclared identifier 'UIViewController'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^74#4#74#4#2566#0#14"Semantic Issue--2@33"Use of undeclared identifier 'vc'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^74#22#74#22#2584#0#14"Semantic Issue--2@47"Use of undeclared identifier 'UIViewController'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^74#29#74#29#2591#0#14"Semantic Issue--2@33"Use of undeclared identifier 'vc'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^75#4#75#4#2626#0#14"Semantic Issue--2@33"Use of undeclared identifier 'vc'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^76#33#76#33#2675#0#14"Semantic Issue--2@57"Property 'layer' not found on object of type 'EAGLView *'-369181927#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^78#40#78#40#2764#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@66"file://localhost/Users/graphics/Projects/Engine/Engine/TEEngine.mm0000000000000000^3295"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o Engine/TEEngine.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.dia -c /Users/graphics/Projects/Engine/Engine/TEEngine.mm -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEEngine.o36"05DA8292-E599-4F19-B3B5-850BC3A1938C-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o /Users/graphics/Projects/Engine/Engine/TEGameObject.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.580058
-e369181927.259048
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o
-x/Users/graphics/Projects/Engine/Engine/TEGameObject.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/graphics/Projects/Engine/Engine/TEGameObject.cpp499d94e64401b641^5b2445e74401b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/graphics/Projects/Engine/Engine/TEGameObject.cpp0000000000000000^2984"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o Engine/TEGameObject.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.dia -c /Users/graphics/Projects/Engine/Engine/TEGameObject.cpp -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEGameObject.o36"230A46B2-2426-46BD-A861-248990E441E7-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o /Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181927.010778
-e369181927.360035
-r1
-xCompileC
-xBuild/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o
-x/Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/graphics/Projects/Engine/Engine/TEInputTouch.cppe4f302e74401b641^20635ee74401b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp0000000000000000^2984"CompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o Engine/TEInputTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos -include /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.d --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.dia -c /Users/graphics/Projects/Engine/Engine/TEInputTouch.cpp -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEInputTouch.o36"87492151-1BFB-4116-AD8C-D48AB88B817A-
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerComponent.o /Users/graphics/Projects/Engine/Engine/TEManagerComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerFile.o /Users/graphics/Projects/Engine/Engine/TEManagerFile.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerInput.o /Users/graphics/Projects/Engine/Engine/TEManagerInput.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerProfiler.o /Users/graphics/Projects/Engine/Engine/TEManagerProfiler.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerRender.o /Users/graphics/Projects/Engine/Engine/TEManagerRender.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerSound.o /Users/graphics/Projects/Engine/Engine/TEManagerSound.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTexture.o /Users/graphics/Projects/Engine/Engine/TEManagerTexture.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTime.o /Users/graphics/Projects/Engine/Engine/TEManagerTime.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEManagerTouch.o /Users/graphics/Projects/Engine/Engine/TEManagerTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEProgramPolygon.o /Users/graphics/Projects/Engine/Engine/TEProgramPolygon.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERenderTarget.o /Users/graphics/Projects/Engine/Engine/TERenderTarget.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERenderer.o /Users/graphics/Projects/Engine/Engine/TERenderer.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererBasic.o /Users/graphics/Projects/Engine/Engine/TERendererBasic.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererKernel.o /Users/graphics/Projects/Engine/Engine/TERendererKernel.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererOGL2.o /Users/graphics/Projects/Engine/Engine/TERendererOGL2.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererProgram.o /Users/graphics/Projects/Engine/Engine/TERendererProgram.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERendererTexture.o /Users/graphics/Projects/Engine/Engine/TERendererTexture.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TERunnable.o /Users/graphics/Projects/Engine/Engine/TERunnable.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Objects-normal/armv7/TEUtilMatrix.o /Users/graphics/Projects/Engine/Engine/TEUtilMatrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CLibtool /Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/libEngine.a normal armv7
-r0
-
-CProcessPCH /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dvjisqdxkvbhtdbogrhekgtngagr/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH /Users/graphics/Projects/Engine/Build/Engine/Index/PrecompiledHeaders/Engine-Prefix-cjbxekagttnjlbghrknkcygmxwhk_ast/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.073559
-e369181926.578637
-r1
-xProcessPCH++
-x/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth
-xEngine/Engine-Prefix.pch
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Engine/Engine-Prefix.pch3bfb12e64401b641^b32494e64401b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/graphics/Projects/Engine/Engine/Engine-Prefix.pch0000000000000000^3204"ProcessPCH++ Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.dia -c /Users/graphics/Projects/Engine/Engine/Engine-Prefix.pch -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.pth -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-bvwttfzkwngemegsijludccpkfxu/Engine-Prefix.pch.d36"A3D8B330-1F66-4E28-8BF9-0DA2816F25DF-
-
-CProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369181926.073556
-e369181926.099294
-r1
-xProcessPCH++
-x/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth
-xEngine/Engine-Prefix.pch
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Engine/Engine-Prefix.pch6efb12e64401b641^23da1ae64401b641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/graphics/Projects/Engine/Engine/Engine-Prefix.pch0000000000000000^2867"ProcessPCH++ Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/graphics/Projects/Engine    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-conversion -Wno-sign-conversion -mthumb -miphoneos-version-min=5.1 -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-generated-files.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-own-target-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-all-target-headers.hmap -iquote /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/Engine-project-headers.hmap -I/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos/include -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources/armv7 -I/Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/Engine.build/Debug-iphoneos/Engine.build/DerivedSources -F/Users/graphics/Projects/Engine/Build/Engine/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.dia -c /Users/graphics/Projects/Engine/Engine/Engine-Prefix.pch -o /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.pth -MMD -MT dependencies -MF /Users/graphics/Projects/Engine/Build/Engine/Build/Intermediates/PrecompiledHeaders/Engine-Prefix-dahdushooddibcapekbwabphjgvy/Engine-Prefix.pch.d36"2D79A966-FE71-47E7-9B6C-C180C91EC8ED-
-
-CProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Index/PrecompiledHeaders/Engine-Prefix-ayhocjhsztkjheafnbkhtekbjyns_ast/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/graphics/Projects/Engine/Build/Engine/Index/PrecompiledHeaders/Engine-Prefix-fnccaaehgzgvfcgaebjvmfnhszrq_ast/Engine-Prefix.pch.pth Engine/Engine-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
