@@ -20,9 +20,9 @@ struct RainDrop {
 
     void reset() {
         long rd = rand();
-        float xMod = abs(rd) % 320;
-        mX = xMod - 160;
-        mY = 240 + (rd % 26);
+        float xMod = abs(rd) % 480;
+        mX = xMod - 240;
+        mY = 160 + (rd % 26);
         mZ = 0;
         float speedAdd = rd % (int)MAX_RAINDROP_SPEED;
         mSpeedFactor = MIN_SPEED + speedAdd;

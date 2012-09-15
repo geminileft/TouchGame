@@ -7,6 +7,9 @@
 
 RenderRain::RenderRain(uint drops) : TEComponentRender(), mDropCount(drops) {
     initialize();
+    for (int i = 0;i < mDropCount; ++i) {
+        mRenderPrimatives[i].vertexBuffer = NULL;
+    }
 }
 
 void RenderRain::update() {
@@ -15,7 +18,7 @@ void RenderRain::update() {
             --mRainDrops[i].mTicksToAlive;
         } else {
             mRainDrops[i].mY += floor(mRainDrops[i].mDirection.y * mRainDrops[i].getSpeed());
-            if (mRainDrops[i].mY < -240.0f) {
+            if (mRainDrops[i].mY < -160.0f) {
                 mRainDrops[i].reset();
                 mRenderPrimatives[i].color = mRainDrops[i].getColor();
             }

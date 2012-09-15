@@ -67,16 +67,11 @@ float* TERenderTarget::getViewMatrix() {
 }
 
 void TERenderTarget::addPrimative(TERenderPrimative primative) {
-    TEShaderType type;
+    TEShaderType type = ShaderNone;
     std::vector<TERenderPrimative> primatives;
     
     if (primative.textureBuffer == NULL) {
-        if (primative.extraType == ShaderLines)
-            type = ShaderLines;
-        else if (!primative.colorData)
-            type = ShaderBasic;
-        else
-            type = ShaderPolygon;
+        type = primative.extraType;
     } else {
         if (primative.extraData != NULL) {
             type = primative.extraType;

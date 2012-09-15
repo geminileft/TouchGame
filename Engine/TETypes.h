@@ -108,7 +108,8 @@ inline TEColor4 TEColor4Make(float r, float g, float b, float a) {
 }
 
 enum TEShaderType {
-    ShaderBasic
+    ShaderNone
+    , ShaderBasic
     , ShaderPolygon
     , ShaderTexture
     , ShaderKernel

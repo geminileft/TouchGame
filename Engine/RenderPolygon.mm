@@ -26,7 +26,7 @@ void RenderPolygon::update() {
 
     mRenderPrimative.position.x = mParent->position.x;
     mRenderPrimative.position.y = mParent->position.y;
-
+    mRenderPrimative.extraType = ShaderBasic;
     getRenderTarget()->addPrimative(mRenderPrimative);
 }
 
