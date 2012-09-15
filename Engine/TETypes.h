@@ -119,6 +119,7 @@ enum TEShaderType {
     , ShaderNegative
     , ShaderYellow
     , ShaderLines
+    , ShaderPoints
 };
 
 typedef enum TEShaderType TEShaderType;
